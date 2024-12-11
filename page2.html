@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="userList">
+        <h3>User List</h3>
+        <!-- User names dynamically populated via JavaScript -->
+    </div>
+    <div id="userDetails">
+        <p>Hover over a name to see details here.</p>
+    </div>
+    <button id="addUserBtn">Add User</button>
+
+    <!-- Modal for adding a new user -->
+    <div id="addUserModal" style="display: none;">
+        <div id="modalContent">
+            <h3>Add New User</h3>
+            <label>
+                Name: <input type="text" id="newUserName" />
+            </label><br>
+            <label>
+                Age: <input type="text" id="newUserAge" />
+            </label><br>
+            <label>
+                Family Name: <input type="text" id="newUserFamilyName" />
+            </label><br>
+            <button id="saveUserBtn">Save</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+    </div>
+
+    <script src="details.js"></script>
+</body>
+</html>
