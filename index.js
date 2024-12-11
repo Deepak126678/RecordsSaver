@@ -14,9 +14,9 @@ document.getElementById("submitBtn").addEventListener("click", () => {
         familyName: familyName,
     };
 
-    // Store the first page user in localStorage
+    
     localStorage.setItem("FirstPageUser", JSON.stringify(firstPageUser));
 
-    // Redirect to the second page
+    
     window.location.href = "page2.html";
 });
